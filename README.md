@@ -34,7 +34,7 @@ Running `yarn build:custom` produces the following error
 
 This indicates that the template is processed before the pug is compiled to html meaning that the following webpack rule was not applied
 
-```json
+```js
 {
   test: /\.(pug)$/,
   use: [{ loader: "apply-loader" }, { loader: "pug-loader" }]
