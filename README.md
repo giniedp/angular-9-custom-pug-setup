@@ -2,7 +2,7 @@ This project implements a custom angular 9 setup using pug templates and points 
 
 The implementation is for demonstration purposes only. This is not a bullet proof setup.
 
-#Setup
+# Setup
 
 ```
 git clone git@github.com:giniedp/angular-9-custom-pug-setup.git
@@ -10,7 +10,7 @@ cd angular-9-custom-pug-setup
 yarn install
 ```
 
-#Commands
+# Commands
 
 run `yarn build:custom` to build the project with custom pipeline
 
@@ -18,7 +18,7 @@ run `yarn build:custom --aot` to build the project with custom pipeline and AOT 
 
 run `yarn serve:custom` to serve the compiled application (should be available at http://localhost:8000)
 
-#Problem
+# Problem
 
 Running `yarn build:custom` produces the following error
 
